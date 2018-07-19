@@ -31,7 +31,7 @@ public class Solution {
             hotelMentionedList.add(hotelMentioned);
 
         }
-
+        Collections.sort(hotelMentionedList);
+        return hotelMentionedList;
     }
-}
 }
