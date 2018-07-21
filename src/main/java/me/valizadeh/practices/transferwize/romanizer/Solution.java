@@ -20,7 +20,7 @@ public class Solution {
             } else if (number > steps[i]) {
                 continue;
             } else {
-                if (i % 2 == 0 && i >= 2) {//Number which are
+                if (i % 2 == 0 && i >= 2) {//Steps which doesn't start with 5 which their index in step array is an even number.{10,100,1000}
                     if ((steps[i] - number) <= steps[i - 2]) {
                         romanizeStr.append(signs[i - 2])
                                 .append(signs[i])
